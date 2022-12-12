@@ -86,7 +86,7 @@ class Program
     }
 
     // Method Untuk Operasi Kalkulator
-    // Apakah bisa menginput angka minus = BISA boss*
+    // Apakah bisa menginput angka minus*
     // Dapat memberi jumlah input angka sesuai keinginan *
     static void Kalkulator(string input)
     {
@@ -148,6 +148,7 @@ class Program
         double[] ArrayAngka = { };
         List<double> ListAngka = new List<double>();
 
+        Console.WriteLine("Gunakan [, / .] untuk angka desimal");
         Console.Write("Masukan berapa banyak inputan: ");
         BanyakInputan = Convert.ToInt32(Console.ReadLine());
 
